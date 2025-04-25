@@ -1,0 +1,15 @@
+npm install -g expo-cli
+
+
+Criando projeto com Expo
+npx create-expo-app meu-primeiro-app
+
+Indo até o projeto
+cd meu-primeiro-app
+
+Startando o projeto
+npx expo start
+
+
+Precisa de node maior que o 18
+Eu utilizei o 22 no trabalho
