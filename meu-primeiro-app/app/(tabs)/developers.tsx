@@ -7,7 +7,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 
-export default function TabTeste() {
+export default function TabDeveloper() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
@@ -20,7 +20,7 @@ export default function TabTeste() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">NÂO SEI</ThemedText>
+        <ThemedText type="title">DESENVOLVEDORES</ThemedText>
       </ThemedView>
     </ParallaxScrollView>
   );
