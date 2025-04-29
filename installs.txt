@@ -9,6 +9,7 @@ cd meu-primeiro-app
 
 Startando o projeto
 npx expo start
+npx expo start --tunnel
 
 
 Precisa de node maior que o 18

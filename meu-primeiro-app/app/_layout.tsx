@@ -55,11 +55,11 @@ export default function RootLayout() {
   const router = useRouter();
   const colorScheme = useColorScheme();
 
-  useEffect(() => {
-    if (!isLoggedIn) {
-      router.replace('/login'); // redireciona para a tela de login
-    }
-  }, [isLoggedIn]);
+  // useEffect(() => {
+  //   if (!isLoggedIn) {
+  //     router.replace('/login'); // redireciona para a tela de login
+  //   }
+  // }, [isLoggedIn]);
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
